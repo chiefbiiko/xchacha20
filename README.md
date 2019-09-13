@@ -1,6 +1,6 @@
 # xchacha20
 
-xchacha20 as defined by [RFC 8439](https://tools.ietf.org/html/rfc8439).
+XChaCha20 as defined by [the XChaCha20 IRTF CFRG draft](https://tools.ietf.org/html/draft-irtf-cfrg-xchacha-01).
 
 [![Travis](http://img.shields.io/travis/chiefbiiko/xchacha20.svg?style=flat)](http://travis-ci.org/chiefbiiko/xchacha20) [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/chiefbiiko/xchacha20?branch=master&svg=true)](https://ci.appveyor.com/project/chiefbiiko/xchacha20)
 
