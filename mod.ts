@@ -24,7 +24,7 @@ export function xchacha20(
 
   const chacha20Nonce: Uint8Array = new Uint8Array(CHACHA20_NONCE_BYTES);
 
-  chacha20Nonce.set(nonce.subarray(HCHACHA20_NONCE_BYTES, nonce.byteLength), 4);
+  chacha20Nonce.set(nonce.subarray(HCHACHA20_NONCE_BYTES, NONCE_BYTES), 4);
 
   chacha20(out, chacha20Key, chacha20Nonce, counter, text);
 
