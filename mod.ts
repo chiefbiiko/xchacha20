@@ -1,12 +1,10 @@
 import {
-  hchacha20,
-  NONCE_BYTES as HCHACHA20_NONCE_BYTES,
-  OUTPUT_BYTES as HCHACHA20_OUTPUT_BYTES
-} from "https://denopkg.com/chiefbiiko/hchacha20/mod.ts";
-import {
   chacha20,
-  NONCE_BYTES as CHACHA20_NONCE_BYTES
-} from "https://denopkg.com/chiefbiiko/chacha20/mod.ts";
+  CHACHA20_NONCE_BYTES,
+  hchacha20,
+  HCHACHA20_NONCE_BYTES,
+  HCHACHA20_OUTPUT_BYTES
+} from "./deps.ts";
 
 export const KEY_BYTES: number = 32;
 export const NONCE_BYTES: number = 24;
